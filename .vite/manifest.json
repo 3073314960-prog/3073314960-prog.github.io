@@ -26,8 +26,8 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_reference-data-ROuNtyKY.js": {
-    "file": "assets/reference-data-ROuNtyKY.js",
+  "_reference-data-Cazd4y12.js": {
+    "file": "assets/reference-data-Cazd4y12.js",
     "name": "reference-data"
   },
   "_rolldown-runtime-S-ySWqyJ.js": {
@@ -46,20 +46,24 @@
     ]
   },
   "app/dictionary/page.tsx": {
-    "file": "assets/page-Cn7jGmvu.js",
+    "file": "assets/page-CLJYVscV.js",
     "name": "page",
     "src": "app/dictionary/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
       "_app-shell-DrIMNizp.js",
       "_learning-data-Bkvd1LtO.js",
-      "_reference-data-ROuNtyKY.js",
+      "_reference-data-Cazd4y12.js",
       "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "app/vocabulary-corpus.generated.ts"
     ]
   },
   "app/grammar/page.tsx": {
-    "file": "assets/page-BujnIj-A.js",
+    "file": "assets/page-DEp0Qfs-.js",
     "name": "page",
     "src": "app/grammar/page.tsx",
     "isDynamicEntry": true,
@@ -67,7 +71,7 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "_app-shell-DrIMNizp.js",
       "_learning-data-Bkvd1LtO.js",
-      "_reference-data-ROuNtyKY.js",
+      "_reference-data-Cazd4y12.js",
       "_framework-CXnKph_e.js"
     ]
   },
@@ -95,7 +99,7 @@
     ]
   },
   "app/page.tsx": {
-    "file": "assets/page-BzR98Isj.js",
+    "file": "assets/page-DkM0OsPr.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
@@ -130,8 +134,14 @@
       "_framework-CXnKph_e.js"
     ]
   },
+  "app/vocabulary-corpus.generated.ts": {
+    "file": "assets/vocabulary-corpus.generated-BiwHSIC8.js",
+    "name": "vocabulary-corpus.generated",
+    "src": "app/vocabulary-corpus.generated.ts",
+    "isDynamicEntry": true
+  },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-B-4ItVP4.js",
+    "file": "assets/layout-segment-context-Be6h0jcg.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -142,7 +152,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-Bok7dRWv.js",
+    "file": "assets/index-ffDQ_qYt.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
