@@ -1,11 +1,4 @@
 {
-  "_app-shell-DrIMNizp.js": {
-    "file": "assets/app-shell-DrIMNizp.js",
-    "name": "app-shell",
-    "imports": [
-      "_framework-CXnKph_e.js"
-    ]
-  },
   "_framework-CXnKph_e.js": {
     "file": "assets/framework-CXnKph_e.js",
     "name": "framework",
@@ -17,131 +10,154 @@
     "file": "assets/learning-data-Bkvd1LtO.js",
     "name": "learning-data"
   },
-  "_learning-sections-Btu2YwRF.js": {
-    "file": "assets/learning-sections-Btu2YwRF.js",
+  "_learning-sections-BvZhBqP7.js": {
+    "file": "assets/learning-sections-BvZhBqP7.js",
     "name": "learning-sections",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_learning-data-Bkvd1LtO.js",
+      "_speech-practice-Ced-fZOh.js",
       "_framework-CXnKph_e.js"
     ]
   },
-  "_reference-data-CPQD3wqA.js": {
-    "file": "assets/reference-data-CPQD3wqA.js",
+  "_reference-data-IXXDWy7s.js": {
+    "file": "assets/reference-data-IXXDWy7s.js",
     "name": "reference-data"
   },
   "_rolldown-runtime-S-ySWqyJ.js": {
     "file": "assets/rolldown-runtime-S-ySWqyJ.js",
     "name": "rolldown-runtime"
   },
+  "_speech-practice-Ced-fZOh.js": {
+    "file": "assets/speech-practice-Ced-fZOh.js",
+    "name": "speech-practice"
+  },
+  "app/app-shell.tsx": {
+    "file": "assets/app-shell-C9F_SPWX.js",
+    "name": "app-shell",
+    "src": "app/app-shell.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "app/dialogue/page.tsx": {
-    "file": "assets/page-bwbxoBTQ.js",
+    "file": "assets/page-BPkBXtdi.js",
     "name": "page",
     "src": "app/dialogue/page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_app-shell-DrIMNizp.js",
-      "_learning-sections-Btu2YwRF.js",
+      "app/app-shell.tsx",
+      "_learning-sections-BvZhBqP7.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/dictionary/page.tsx": {
-    "file": "assets/page-PcyvbKgu.js",
+    "file": "assets/page-CeTVIFFq.js",
     "name": "page",
     "src": "app/dictionary/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_app-shell-DrIMNizp.js",
-      "_reference-data-CPQD3wqA.js",
+      "app/app-shell.tsx",
+      "_reference-data-IXXDWy7s.js",
       "_learning-data-Bkvd1LtO.js",
+      "_speech-practice-Ced-fZOh.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
-      "app/vocabulary-corpus.generated.ts"
+      "app/vocabulary-corpus.generated.ts",
+      "app/n1-vocabulary-corpus.generated.ts"
     ]
   },
   "app/grammar/page.tsx": {
-    "file": "assets/page-CsQcc2x1.js",
+    "file": "assets/page-CyQLuAf9.js",
     "name": "page",
     "src": "app/grammar/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_app-shell-DrIMNizp.js",
-      "_reference-data-CPQD3wqA.js",
+      "app/app-shell.tsx",
+      "_reference-data-IXXDWy7s.js",
       "_learning-data-Bkvd1LtO.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/kana/page.tsx": {
-    "file": "assets/page-DbVJEJAM.js",
+    "file": "assets/page-DMyR0UEP.js",
     "name": "page",
     "src": "app/kana/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_app-shell-DrIMNizp.js",
+      "app/app-shell.tsx",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/mock-test/page.tsx": {
-    "file": "assets/page-D28o1HrD.js",
+    "file": "assets/page-DUxAJdn3.js",
     "name": "page",
     "src": "app/mock-test/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_app-shell-DrIMNizp.js",
+      "app/app-shell.tsx",
       "_learning-data-Bkvd1LtO.js",
       "_framework-CXnKph_e.js"
     ]
   },
+  "app/n1-vocabulary-corpus.generated.ts": {
+    "file": "assets/n1-vocabulary-corpus.generated-CwHN08I6.js",
+    "name": "n1-vocabulary-corpus.generated",
+    "src": "app/n1-vocabulary-corpus.generated.ts",
+    "isDynamicEntry": true
+  },
   "app/page.tsx": {
-    "file": "assets/page-vmBNzZrk.js",
+    "file": "assets/page-D13fjwaM.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_app-shell-DrIMNizp.js",
+      "app/app-shell.tsx",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/profile/page.tsx": {
-    "file": "assets/page-CR4kTrBC.js",
+    "file": "assets/page-B5NuycUM.js",
     "name": "page",
     "src": "app/profile/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_app-shell-DrIMNizp.js",
+      "app/app-shell.tsx",
       "_learning-data-Bkvd1LtO.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/study/page.tsx": {
-    "file": "assets/page-7wTAae_Y.js",
+    "file": "assets/page-8wPP9r6A.js",
     "name": "page",
     "src": "app/study/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_app-shell-DrIMNizp.js",
+      "app/app-shell.tsx",
       "_learning-data-Bkvd1LtO.js",
-      "_learning-sections-Btu2YwRF.js",
+      "_learning-sections-BvZhBqP7.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/vocabulary-corpus.generated.ts": {
-    "file": "assets/vocabulary-corpus.generated-BiwHSIC8.js",
+    "file": "assets/vocabulary-corpus.generated-BPX0nZDT.js",
     "name": "vocabulary-corpus.generated",
     "src": "app/vocabulary-corpus.generated.ts",
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-DtRxnJuB.js",
+    "file": "assets/layout-segment-context-BYMZ-qbY.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -152,7 +168,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-BXot5Gs4.js",
+    "file": "assets/index-DkaqBARf.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -169,6 +185,7 @@
       "app/mock-test/page.tsx",
       "app/page.tsx",
       "app/kana/page.tsx",
+      "app/app-shell.tsx",
       "app/study/page.tsx",
       "app/profile/page.tsx"
     ]
