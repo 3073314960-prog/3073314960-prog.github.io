@@ -26,8 +26,8 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_reference-data-Cazd4y12.js": {
-    "file": "assets/reference-data-Cazd4y12.js",
+  "_reference-data-CPQD3wqA.js": {
+    "file": "assets/reference-data-CPQD3wqA.js",
     "name": "reference-data"
   },
   "_rolldown-runtime-S-ySWqyJ.js": {
@@ -46,7 +46,7 @@
     ]
   },
   "app/dictionary/page.tsx": {
-    "file": "assets/page-CLJYVscV.js",
+    "file": "assets/page-PcyvbKgu.js",
     "name": "page",
     "src": "app/dictionary/page.tsx",
     "isDynamicEntry": true,
@@ -54,8 +54,8 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
       "_app-shell-DrIMNizp.js",
+      "_reference-data-CPQD3wqA.js",
       "_learning-data-Bkvd1LtO.js",
-      "_reference-data-Cazd4y12.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
@@ -63,15 +63,15 @@
     ]
   },
   "app/grammar/page.tsx": {
-    "file": "assets/page-DEp0Qfs-.js",
+    "file": "assets/page-CsQcc2x1.js",
     "name": "page",
     "src": "app/grammar/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_app-shell-DrIMNizp.js",
+      "_reference-data-CPQD3wqA.js",
       "_learning-data-Bkvd1LtO.js",
-      "_reference-data-Cazd4y12.js",
       "_framework-CXnKph_e.js"
     ]
   },
@@ -99,7 +99,7 @@
     ]
   },
   "app/page.tsx": {
-    "file": "assets/page-DkM0OsPr.js",
+    "file": "assets/page-vmBNzZrk.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
@@ -141,7 +141,7 @@
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-Be6h0jcg.js",
+    "file": "assets/layout-segment-context-DtRxnJuB.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -152,7 +152,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-ffDQ_qYt.js",
+    "file": "assets/index-BXot5Gs4.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
